@@ -22,6 +22,12 @@ Windows Endpoint (Wazuh Agent) → Ubuntu VM (Wazuh Manager) → Wazuh Dashboard
 <img width="1200" height="1200" alt="Windows agent" src="https://github.com/user-attachments/assets/5b7a79c4-a747-41b4-bd1d-640d5f94b59b" />
 
 
+## Configuration
+
+Relevant File Integrity Monitoring configuration can be found in:
+
+[configs/ossec.conf](configs/ossec.conf)
+
 ## Highlights
 - Deployed a working Wazuh SIEM lab with manager and agent integration
 - Configured real-time monitoring for a target Windows directory
@@ -30,4 +36,6 @@ Windows Endpoint (Wazuh Agent) → Ubuntu VM (Wazuh Manager) → Wazuh Dashboard
 - Resolved setup issues including agent communication and FIM configuration
 
 ## Detailed Walkthrough
-Detailed explanation: `DETAILED-WALKTHROUGH.md`
+## Detailed Walkthrough
+
+A step-by-step explanation of the setup, agent registration, File Integrity Monitoring configuration, testing, and troubleshooting is available in [DETAILED-WALKTHROUGH.md](DETAILED-WALKTHROUGH.md).
